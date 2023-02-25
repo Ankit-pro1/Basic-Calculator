@@ -26,7 +26,11 @@
     cursor: pointer;
     background-color: transparent;
     color: #fff;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3)
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+.container form input:active{
+    transform: scale(1.1);
 }
 .container form input.op{
     color: #1d98be;
