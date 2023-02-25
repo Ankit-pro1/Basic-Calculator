@@ -14,6 +14,9 @@ for(let item of btns){
         else if(itemValue == "="){
             screen.value = eval(screen.value);
         }
+        else if(itemValue == "x"){
+            screen.value += '*';
+        }
         else{
             screen.value+=itemValue;
         }

@@ -44,3 +44,16 @@
     padding: 0 6px;
     box-shadow: none;
 }
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #3a4452;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.footer a{
+    color: #fff;
+}
