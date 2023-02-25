@@ -35,9 +35,6 @@
 .container form input.op{
     color: #1d98be;
 }
-.container form input.equal{
-    width: 130px;
-}
 .container form .display{
     display: flex;
 }
